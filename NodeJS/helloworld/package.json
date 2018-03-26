@@ -1,0 +1,25 @@
+{
+  "name": "helloworld",
+  "version": "1.0.0",
+  "description": "Basic Node/Express JS app - Hello World",
+  "main": "app.js",
+  "scripts": {
+    "test": "node app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/codenoschool/restapis-course.git"
+  },
+  "keywords": [
+    "hw"
+  ],
+  "author": "ISC & CodeNoSchool",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/codenoschool/restapis-course/issues"
+  },
+  "homepage": "https://github.com/codenoschool/restapis-course#readme",
+  "dependencies": {
+    "express": "^4.16.3"
+  }
+}
