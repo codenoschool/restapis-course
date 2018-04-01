@@ -9,7 +9,7 @@ Bienvenid@ a otro curso de desarrollo web de la mano de ISC & CodeNoSchool.
 
 Desarrollar APIs basadas en REST se ha vuelto bastante popular en los últimos años, prácticamente interactuamos con ellas día a día al navegar por Internet. Es por está razón que en este curso aprenderás a saber qué implican, cómo construirlas, consumirlas (utilizarlas), y todo ello de la manera más simple.
 
-Actualmente existen diferentes conjuntos de herramientas que nos ayudan a desarrollar APIs basadas en REST, por ejemplo, uno de los conjuntos de desarrollo más populares en estos días está conformado por: Express/Node JS (Javascript). Durante este curso sí que verás demostraciones con este conjunto de desarrollo basado en Javascript e incluso algunos otros, sin embargo, principalemente utilizaremos Flask, el cual es un framework de desarrollo web basado en el lenguaje de programación Python; es minimalista, y nos permite aprender observar, practicar y comprender cada uno de los temas del curso.
+Actualmente existen diferentes conjuntos de herramientas que nos ayudan a desarrollar APIs basadas en REST, por ejemplo, uno de los conjuntos de desarrollo más populares en estos días está conformado por: Express/Node JS (Javascript). Durante este curso sí que verás demostraciones con este conjunto de desarrollo basado en Javascript e incluso algunos otros, sin embargo, principalmente utilizaremos Flask, el cual es un framework de desarrollo web basado en el lenguaje de programación Python; es minimalista, y nos permite aprender observar, practicar y comprender cada uno de los temas del curso.
 
 ¿Te animas? Esperamos que sí. Aquí te dejamos los requisitos previos que necesitas para tomar este curso completo y gratuito que te ayudara a adentrarte en el mundo del Desarrollo Web, y además respondemos algunas de las dudas frecuentes.
 
@@ -112,7 +112,7 @@ Siempre buscamos que puedas beneficiarte de toda la información, por ello te ex
 
 ### 2 |  Primeras aplicaciones web
 #### Crea tus dos primeras aplicaciones web
-Crearemos dos aplicaciones web que harán exactamente lo mismo, pero utilizaremos dos distintos conjuntos de herramientas para crearlas. Por un lado tenemos a Flask/Python, y por el otro a Express/Node JS. El próposito es mostrarte lo sencillo que es crear aplicaciones web con estás herramientas, y además el hecho de que aprender las bases de desarrollo web te ayudará a trabajar en diferentes proyectos sin importar el conjunto de herramientas que utilices.
+Crearemos dos aplicaciones web que harán exactamente lo mismo, pero utilizaremos dos distintos conjuntos de herramientas para crearlas. Por un lado tenemos a Flask/Python, y por el otro a Express/Node JS. El propósito es mostrarte lo sencillo que es crear aplicaciones web con estás herramientas, y además el hecho de que aprender las bases de desarrollo web te ayudará a trabajar en diferentes proyectos sin importar el conjunto de herramientas que utilices.
 
 ### 3 | Entorno de Trabajo
 #### Instalaciones y Configuraciones
@@ -123,11 +123,11 @@ Haremos dos vídeos para dejar tu entorno bien preparado:
 * Unix/GNU Linux (Todo el que se parezca a Ubuntu, ArchLinux, MAC OS, CentOS, y muchos otros).
 
 ### 4 |  Rutas
-#### URLs, parametros, argumentos, endpoints
+#### URLs, parámetros, argumentos, endpoints
 Preparar rutas para tu aplicación web, en este caso siendo más específicos, para tu RESTful API es algo vital. Es por ello que te explicamos algunos de los conceptos básicos.
 
 ### 5 | HTTP/REST
-#### Prótocolos; peticiones y respuestas
+#### Protocolos; peticiones y respuestas
 Para que una aplicación web funcione se debe elegir que reglas de desarrollo, comunicación, y diseño se deben seguir. Para este curso utilizaremos las bases HTTP/REST, por eso es importante que conozcas qué implica cada uno los términos.
 
 ### 6 | JSON Python/Flask
@@ -165,7 +165,7 @@ Una opción más para administrar y realizar operaciones con los datos de tu apl
 
 ## Tema | Consumir APIs
 
-* ### 14 | ¿Cómo hacerlo? Casos más comúnes.
+* ### 14 | ¿Cómo hacerlo? Casos más comunes.
     #### Webhooks, aplicaciones web, híbridas, y multiplataforma
     Una de las ventajas de construir RESTful APIs es que nos permiten consumir los diferentes servicios que ofrecen. Esto nos facilita el de hecho crear otro tipo de aplicaciones de manera rápida para ofrecer otro tipo de servicios y experiencias personalizadas. Te mostraremos los casos más comunes.
 
@@ -196,4 +196,4 @@ Para reafirmar todo lo que has aprendido te presentaremos una serie de demostrac
 
 ## FINAL DE CURSO
 #### Información final importante
-Te damos más información para que puedas sacarle el máximo provecho a todo lo que has aprendido durante el curso. Te brindamos consejos, resolvemos las dudas más comúnes y te comentamos con qué temas podrías continuar para que sigas avanzando en tu aprendizaje.
+Te damos más información para que puedas sacarle el máximo provecho a todo lo que has aprendido durante el curso. Te brindamos consejos, resolvemos las dudas más comunes y te comentamos con qué temas podrías continuar para que sigas avanzando en tu aprendizaje.
