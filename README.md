@@ -68,17 +68,17 @@ if __name__ == "__main__":
 **¿Acaso no es sencillo? Así que no te preocupes, solamente concentrate en aprender y dejanos el resto.**
 
 # Temario del curso:
-> **"No analizaremos los temas a fondo, pero tampoco a la ligera sino simplemente lo que resulte necesario."** - Jess K. Martz
+> **"No analizaremos los temas a fondo, pero tampoco a la ligera sino simplemente lo que resulte necesario."** - Jessy K. Martz
 
 ### Sección | ¡Vamos a comenzar!
 - [x] Introducción
 - [x] Primeras aplicaciones web
-- [ ] Entorno de trabajo
+- [x] Entorno de trabajo
 
 ### Sección | Teoría básica
-- [ ] Rutas
+- [x] Rutas (URI, URL, URN, Endpoints)
 - [ ] HTTP/REST (Peticiones/Respuestas)
-- [ ] JSON Python/Flask
+- [x] JSON
 
 ### Sección | HTTP/REST (Métodos/Verbos)
 - [ ] Método GET
