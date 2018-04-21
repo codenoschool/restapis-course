@@ -51,7 +51,7 @@ Actualmente existen diferentes conjuntos de herramientas que nos ayudan a desarr
   \* Puedes obtener más información acerca de la instalación de herramientas y configuración de entorno en el vídeo-tutorial del curso que se ha preparado para ello.
 
 * No sé utilizar las tecnologías/herramientas de este curso, ¿qué puedo hacer?
-  * Recuerda que nos esforzamos por hacer que cada vídeo sea completamente claro, y además las tecnologías/herramientas que elegimos para este curso están preparadas para que cualquier persona puede aprender aún si no las conoce previamente.
+  * Recuerda que nos esforzamos por hacer que cada vídeo sea completamente claro, y además las tecnologías/herramientas que elegimos para este curso están preparadas para que cualquier persona pueda aprender aún si no las conoce previamente.
 
 * ¿Qué otros curso de desarrollo web hay disponibles?
   * Puedes seguir el curso de Flask, el cual es completo y gratuito. Son 25 vídeos a tu disposición para que aprendas muchas cosas más.
@@ -122,7 +122,7 @@ if __name__ == "__main__":
 
 Sabemos que a veces se necesitará información de primera mano, es por ello que te damos una breve descripción del contenido de cada vídeo para que si estás buscando algo en particular lo puedas encontrar tan rápido como sea posible.
 
-### 1|  Introducción
+### 1 |  Introducción
 
 #### Sacar el máximo provecho del curso
 
@@ -188,13 +188,13 @@ Aquí aprenderás a utilizar cada uno de los métodos/verbos del protocolo HTTP 
 
 	#### Datos en memoria/in-memory
 	
-	Hoy en día la mayoría de aplicaciones almacena datos por diferentes razones, pero aún así es conveniente conocer en que casos podemos trabajar con datos temporales.
+	Hoy en día la mayoría de aplicaciones almacenan datos por diferentes razones, pero aún así es conveniente conocer en que casos podemos trabajar con datos temporales.
 
 * ### 12 | Base de Datos
 
 	#### Persistencia de Datos
 	
-	El movimiento que se genere en nuestra aplicación traerá consigo distintos datos que en muchas ocasiones utilizaremos después, así que debemos almacenarlos en algún lugar, y esa es una base de datos. Aquí conocerás algunas ideas que te ayudarán a integrar una base de datos y administrar el manejo de los datos.
+	El movimiento que se genere en nuestra aplicación traerá consigo distintos datos que en muchas ocasiones utilizaremos después, así que debemos almacenarlos en algún lugar, y ese lugar es una base de datos. Aquí conocerás algunas ideas que te ayudarán a integrar una base de datos y administrar el manejo de los datos.
 
 * ### 13 | Hojas de cálculo
 
@@ -236,7 +236,7 @@ Para reafirmar todo lo que has aprendido te presentaremos una serie de demostrac
     
 * ### 18 | Flask/Python
 
-	#### Creación un Webhook
+	#### Creación de un Webhook
 	
 	Crea un webhook para que logres manipular los recursos de una REST API a tu propia necesidad.
     
