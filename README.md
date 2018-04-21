@@ -94,10 +94,10 @@ if __name__ == "__main__":
 
 ### Sección | HTTP/REST (Métodos/Verbos)
 
-- [ ] Método GET
-- [ ] Método POST
-- [ ] Método PUT
-- [ ] Método DELETE
+- [x] Método GET
+- [x] Método POST
+- [x] Método PUT
+- [x] Método DELETE
 
 ### Sección | Base de datos
 
