@@ -1,5 +1,14 @@
 # Files to ignore.
 
+### Database ###
+*.accdb
+*.db
+*.dbf
+*.mdb
+*.pdb
+*.sql
+*.sqlite3
+
 ### Angular ###
 ## Angular ##
 # compiled output
