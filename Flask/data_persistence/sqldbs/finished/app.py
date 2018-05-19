@@ -31,9 +31,11 @@ class FrameworkSchema(Schema):
     id = fields.Int()
     name = fields.Str()
         
-# This route is irrelevant for the REST API, you can delete it if you want to.
 @app.route("/")
 def index():
+    """
+    This route is irrelevant for the REST API, you can delete it if you want to.
+    """
 
     return "Hello World!"
 
@@ -41,15 +43,15 @@ def index():
 # GET METHOD
 
 @app.route("/api/frameworks/", methods=["GET"])
-"""
-For this endpoint we'll be using Marshmallow to serialize the framework
-objects that we got from the query, and then serialize the result again
-but this time through the jsonify function to give a proper JSON response.
-
-You can use this method for the rest of the methods which won't be using
-marshmallow by default.
-"""
 def get_frameworks():
+    """
+    For this endpoint we'll be using Marshmallow to serialize the framework
+    objects that we got from the query, and then serialize the result again
+    but this time through the jsonify function to give a proper JSON response.
+
+    You can use this method for the rest of the methods which won't be using
+    marshmallow by default.
+    """
     frameworks = Framework.query.all()
     frameworks_schema = FrameworkSchema(many=True)
     result, errors = frameworks_schema.dump(frameworks)
@@ -59,9 +61,9 @@ def get_frameworks():
 @app.route("/api/frameworks/<string:name>")
 def get_framework_by_name(name):
     framework = Framework.query.filter_by(name=name).first()
-    framework_dicc = dict(id=framework.id, name=framework.name)
+    framework_dict = dict(id=framework.id, name=framework.name)
 
-    return jsonify(framework_dicc)
+    return jsonify(framework_dict)
 
 
 # POST METHOD
@@ -72,9 +74,9 @@ def add_framework():
     db.session.add(new_framework)
     db.session.commit()
 
-    framework_dicc = dict(id=new_framework.id, name=new_framework.name)
+    framework_dict = dict(id=new_framework.id, name=new_framework.name)
 
-    return jsonify(framework_dicc)
+    return jsonify(framework_dict)
 
 
 # PUT METHOD
@@ -86,9 +88,9 @@ def edit_framework(id):
 
     db.session.commit()
 
-    framework_dicc = dict(id=framework.id, name=framework.name)
+    framework_dict = dict(id=framework.id, name=framework.name)
 
-    return jsonify(framework_dicc)
+    return jsonify(framework_dict)
 
 
 # DELETE METHOD
