@@ -101,8 +101,8 @@ if __name__ == "__main__":
 
 ### Sección | Base de datos
 
-- [ ] En memoria (In-Memory)
-- [ ] Base de Datos (Persistencia de datos)
+- [x] Bases de datos SQL (MySQL, SQLite, PostgreSQL)
+- [x] MongoDB (Made Simple)
 - [ ] Hojas de cálculo
 
 ### Sección | Consumir/Utilizar APIs
