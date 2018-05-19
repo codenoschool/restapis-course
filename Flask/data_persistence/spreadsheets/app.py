@@ -31,11 +31,19 @@ def index():
 
     return "Hello World!"
 
-# This endpoint is an exercise for you. Find out how to get all the frameworks.
 @app.route("/api/frameworks/")
 def get_frameworks():
+    framework_objects = []
+    frameworks = list(ws.rows)
 
-    return "Exercise to get all the frameworks."
+    for f in frameworks:
+        framework_objects.append(
+                Framework(f[0].value, f[1].value)
+                )
+
+    result, errors = frameworks_schema.dump(framework_objects)
+
+    return jsonify(result)
 
 @app.route("/api/frameworks/<string:name>")
 def get_framework_by_name(name):
@@ -95,8 +103,8 @@ def delete_framework(id):
         if ws.cell(row=i, column=1).value == id:
             framework_row = i
 
-    ws.cell(row=framework_row, column=1).value = ""
-    ws.cell(row=framework_row, column=2).value = ""
+    ws.cell(row=framework_row, column=1).value = None
+    ws.cell(row=framework_row, column=2).value = None
     wb.save("frameworks.xlsx")
 
     return jsonify({"message": "ok"})
