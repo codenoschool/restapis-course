@@ -103,7 +103,7 @@ if __name__ == "__main__":
 
 - [x] Bases de datos SQL (MySQL, SQLite, PostgreSQL)
 - [x] MongoDB (Made Simple)
-- [ ] Hojas de cálculo
+- [x] Hojas de cálculo
 
 ### Sección | Consumir/Utilizar APIs
 
@@ -184,17 +184,17 @@ Aquí aprenderás a utilizar cada uno de los métodos/verbos del protocolo HTTP 
     
 ## Tema | Bases de Datos
 
-* ### 11 | En Memoria
-
-	#### Datos en memoria/in-memory
-	
-	Hoy en día la mayoría de aplicaciones almacenan datos por diferentes razones, pero aún así es conveniente conocer en que casos podemos trabajar con datos temporales.
-
-* ### 12 | Base de Datos
+* ### 11 | Base de Datos SQL (SQLite, MySQL, PostgreSQL)
 
 	#### Persistencia de Datos
 	
 	El movimiento que se genere en nuestra aplicación traerá consigo distintos datos que en muchas ocasiones utilizaremos después, así que debemos almacenarlos en algún lugar, y ese lugar es una base de datos. Aquí conocerás algunas ideas que te ayudarán a integrar una base de datos y administrar el manejo de los datos.
+
+* ### 12 | Base de datos MongoDB
+
+	#### Familiar integración con una RESTAPI
+
+	Las REST API por lo general utilizan el formato JSON para el intercambio de datos, cuya estructura es bastante parecida a estructuras de otros lenguajes de programación, entre ellos Javascript y es la sintaxís de este lenguaje la que es bastante parecida a las estructuras de datos que se manejan en MongoDB. Es por ello que integrar estas dos tecnologías es de lo más familiar y lo más común hoy en día.
 
 * ### 13 | Hojas de cálculo
 
