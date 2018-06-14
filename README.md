@@ -108,7 +108,7 @@ if __name__ == "__main__":
 ### Sección | Consumir/Utilizar APIs
 
 - [x] ¿Cómo consumir una REST API?
-- [ ] APIs públicas (Servicios básicos y desarrollo)
+- [x] APIs públicas (Servicios básicos y desarrollo)
 - [ ] APIs restringidas (Autenticación)
 
 ### Sección | RESTful APIs
