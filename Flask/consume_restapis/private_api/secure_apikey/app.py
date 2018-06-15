@@ -10,6 +10,19 @@ you can check out this link https://jsonbin.io
 and get one, otherwise you won't be able to use this script.
 """
 api_key = os.environ["BIN_APIKEY"]
+"""
+In order the set the environment variable with your API KEY,
+you need to do the following:
+
+    * GNU/LINUX OS, Unix Like, MAC OS:
+        Open a terminal window a enter the follow line:
+        export BIN_APIKEY='yourapikeyhere'
+    * Windows:
+        - Open a CMD window and enter this line:
+            set BIN_APIKEY="yourapikeyhere"
+        - Open a POWERSHELL window and enter this line:
+            $env:BIN_APIKEY = "yourapikeyhere"
+"""
 
 def get_bin():
     b = input("Introduce the Bin ID: ")
