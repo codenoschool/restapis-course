@@ -1,54 +1,66 @@
 import requests
 
-host = "https://api.jsonbin.io"
+host = "https://api.jsonbin.io/b/"
 api_key = "$2a$10$q0l.Q65.t7okoY5GYuvGR.Tq1T6g5/UiuLW5JiMdPALRckgE58lF2"
 
-def get_bins():
-    b = "5b231b394e1aee358ec705ed"
-    headers = {"secret-key": api_key}
-    r = requests.get(host + "/b/" + b, headers=headers)
-
-    users = r.json()
-
-    for u in users:
-        print(f"ID: {u['id']}, Email: {u['email']}, Username: {u['username']}, Lat: {u['address']['geo']['lat']}")
-
 def get_bin():
+    b = input("Introduce the Bin ID: ")
     headers = {"secret-key": api_key}
-    r = requests.get(host + "/b/" + b, headers=headers)
+    r = requests.get(host + b, headers=headers)
 
     print(r.json())
 
-def create_bin():
-    a_bin = {
+def add_bin():
+    one_bin = {
             "id": 1,
             "name": "Flask"
             }
     headers = {"secret-key": api_key, "private": "true"}
-    r = requests.post(host + "/b", headers=headers, json=a_bin)
+    r = requests.post(host, headers=headers, json=one_bin)
 
     print(r.json())
 
 def edit_bin():
-    b = "5b23208213af2335beed3f5a"
-    a_bin = {
-            "id": 3,
-            "name": "MaterializeCSS"
+    b = input("Introduce the Bin ID: ")
+    another_bin = {
+            "id": 2,
+            "name": "ExpressJS"
             }
     headers = {"secret-key": api_key}
-    r = requests.put(host + "/b/" + b, headers=headers, json=a_bin)
+    r = requests.put(host + b, headers=headers, json=another_bin)
 
     print(r.json())
 
 def delete_bin():
-    b = "5b23208213af2335beed3f5a"
+    b = input("Introduce the Bin ID: ")
     headers = {"secret-key": api_key}
-    r = requests.delete(host + "/b/" + b, headers=headers)
+    r = requests.delete(host + b, headers=headers)
 
     print(r.json())
 
+def menu():
+    o = 0
+
+    print("Menu:")
+    o = int(input("Enter an option: "))
+    if o == 1:
+        get_bin()
+    elif o == 2:
+        add_bin()
+    elif o == 3:
+        edit_bin()
+    elif o == 4:
+        delete_bin()
+    else:
+        print("Thanks for using this private API demo. Made by ISC School and CodeNoSchool")
+
+    return o
+
 def main():
-    delete_bin()
+    print("Welcome to this private API Demo. Good luck!")
+    o = 1
+    while o != 0:
+        o = menu()
 
 if __name__ == "__main__":
     main()
