@@ -1,7 +1,15 @@
 import requests
 
 host = "https://api.jsonbin.io/b/"
-api_key = ""
+
+"""
+This app will ask for your API Key,
+if you don't have one,
+you can check out this link https://jsonbin.io
+and get one, otherwise you won't be able to use this script.
+"""
+api_key = "put_your_api_key_here"
+# Do not share your api keys with anyone.
 
 def get_bin():
     b = input("Introduce the Bin ID: ")
@@ -41,7 +49,13 @@ def delete_bin():
 def menu():
     o = 0
 
-    print("Menu:")
+    print("\nMenu:")
+    print("0: Exit")
+    print("1: Get a Bin")
+    print("2: Add a Bin (it has values by default)")
+    print("3: Edit an existent Bin (the values are replaced by other default values)")
+    print("4: Delete a Bin")
+
     o = int(input("Enter an option: "))
     if o == 1:
         get_bin()
@@ -57,8 +71,6 @@ def menu():
     return o
 
 def main():
-    global api_key
-
     print("Welcome to this private API Demo. Good luck!")
     api_key = input("Enter your Key API: ")
 
@@ -67,7 +79,9 @@ def main():
         while o != 0:
             o = menu()
     else:
-        print("Sorry, you cannot use this API tool without an API KEY. (Made by ISC School and CodeNoShool")
+        print("Sorry, you cannot use this API tool without an API KEY.")
+        print("Be sure to set the api_key variable in the code.")
+        print("Script made by ISC School and CodeNoSchool")
 
 if __name__ == "__main__":
     main()
