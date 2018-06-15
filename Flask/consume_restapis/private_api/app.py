@@ -1,7 +1,7 @@
 import requests
 
 host = "https://api.jsonbin.io/b/"
-api_key = "$2a$10$q0l.Q65.t7okoY5GYuvGR.Tq1T6g5/UiuLW5JiMdPALRckgE58lF2"
+api_key = ""
 
 def get_bin():
     b = input("Introduce the Bin ID: ")
@@ -57,10 +57,17 @@ def menu():
     return o
 
 def main():
+    global api_key
+
     print("Welcome to this private API Demo. Good luck!")
-    o = 1
-    while o != 0:
-        o = menu()
+    api_key = input("Enter your Key API: ")
+
+    if api_key:
+        o = 1
+        while o != 0:
+            o = menu()
+    else:
+        print("Sorry, you cannot use this API tool without an API KEY. (Made by ISC School and CodeNoShool")
 
 if __name__ == "__main__":
     main()
