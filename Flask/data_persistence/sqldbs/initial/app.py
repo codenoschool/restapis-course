@@ -4,7 +4,11 @@ from flask_sqlalchemy import SQLAlchemy
 import os
 
 
-# This method to get an absolute path of a file works with all the operative systems.
+# Don't forget that this is just a template
+# for the sql tutorial.
+
+
+# This method gets an absolute path of a file; works with all the operative systems.
 BASE_DIR = os.path.abspath(os.path.dirname(__file__))
 """
 If you're using MySQL or PostegreSQL you'll need to use another connector.
@@ -68,7 +72,28 @@ def delete_framework(id):
 
     return jsonify({"message": "ok"})
 
-if __name__ == "__main__":
-    # This is only for development.
-    db.create_all()
-    app.run(debug=True)
+"""
+Since Flask 1.0 we are invited to use the following method to execute the app:
+
+GNU/Linux - MAC OS:
+    export FLASK_APP=app.py
+    export FLASK_ENV=development
+
+Windows OS:
+    CMD:
+        set FLASK_APP=app.py
+        set FLASK_ENV=development
+    Powershell:
+        $env:FLASK_APP = "app.py"
+        $env:FLASK_ENV = "development"
+
+Additionally you can set FLASK_ENV=development for Debug Mode
+
+You cand find more info about it here:
+http://flask.pocoo.org/docs/1.0/quickstart/#a-minimal-application
+"""
+
+# You can still use this method without any problem.
+#if __name__ == "__main__":
+#   db.create_all()
+#   app.run(debug=True)

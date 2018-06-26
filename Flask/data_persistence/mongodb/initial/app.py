@@ -1,6 +1,7 @@
 from flask import Flask, jsonify, request
 from flask_mongoalchemy import MongoAlchemy
 from marshmallow import Schema, fields
+# Do not forget to install the libraries in your virtualenv
 
 app = Flask(__name__)
 """
@@ -50,16 +51,11 @@ def get_frameworks():
 
     You can use this method for the rest of the enpoints.
     """
-    frameworks_schema = FrameworkSchema(many=True)
-    frameworks = Framework.query.all()
-
-    result, errors = frameworks_schema.dump(frameworks)
 
     return jsonify(result)
 
 @app.route("/api/frameworks/<string:name>")
 def get_framework_by_name(name):
-    framework = Framework.query.filter(Framework.name == name).first()
 
     framework_dict = {
         # This method to format a string only works in Python >= 3.6
@@ -74,8 +70,6 @@ def get_framework_by_name(name):
 
 @app.route("/api/frameworks/", methods=["POST"])
 def add_framework():
-    new_framework = Framework(name=request.json["name"])
-    new_framework.save()
 
     framework_dict = {
         "id": "{}".format(new_framework.mongo_id),
@@ -89,9 +83,6 @@ def add_framework():
 
 @app.route("/api/frameworks/<string:id>", methods=["PUT"])
 def edit_framework(id):
-    framework = Framework.query.get(id)
-    framework.name = request.json["name"]
-    framework.save()
 
     framework_dict = {
         "id": "{}".format(framework.mongo_id),
@@ -105,8 +96,6 @@ def edit_framework(id):
 
 @app.route("/api/frameworks/<string:id>", methods=["DELETE"])
 def delete_framework(id):
-    framework = Framework.query.get(id)
-    framework.remove()
 
     return jsonify({"message": "ok"})
 
