@@ -33,7 +33,7 @@ def get_frameworks():
 def get_framework_by_name(name):
     framework = Framework.query.filter(Framework.name == name).first()
     framework_schema = FrameworkSchema()
-    result, errors = framework_schema.dump(framework)
+    result = framework_schema.dump(framework)
 
     return jsonify(result)
 
