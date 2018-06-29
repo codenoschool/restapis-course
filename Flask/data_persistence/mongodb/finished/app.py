@@ -83,12 +83,15 @@ Since Flask 1.0 we are invited to use the following method to execute the app:
 
 GNU/Linux:
     export FLASK_APP=app.py
+    export FLASK_ENV=development
 
 Windows OS:
     CMD:
         set FLASK_APP=app.py
+        set FLASK_ENV=development
     Powershell:
         $env:FLASK_APP = "app.py"
+        $env:FLASK_ENV = "development"
 
 Additionally you can set FLASK_ENV=development for Debug Mode
 
