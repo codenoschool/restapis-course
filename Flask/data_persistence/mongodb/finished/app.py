@@ -24,8 +24,8 @@ def index():
 @app.route("/api/frameworks/", methods=["GET"])
 def get_frameworks():
     frameworks = Framework.query.all()
-    framework_schema = FrameworkSchema(many=True)
-    results, errors = framework_schema.dump(frameworks)
+    frameworks_schema = FrameworkSchema(many=True)
+    results, errors = frameworks_schema.dump(frameworks)
 
     return jsonify(results)
 
@@ -59,7 +59,6 @@ def add_framework():
 def edit_framework(id):
     framework = Framework.query.get(id)
     framework.name = request.json["name"]
-    framework.save()
 
     framework_dict = {
         # This method to format a string only works in Python >= 3.6
