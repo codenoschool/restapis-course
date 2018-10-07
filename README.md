@@ -251,3 +251,21 @@ Para reafirmar todo lo que has aprendido te presentaremos una serie de demostrac
 #### Información final importante
 
 Te damos más información para que puedas sacarle el máximo provecho a todo lo que has aprendido durante el curso. Te brindamos consejos, resolvemos las dudas más comunes y te comentamos con qué temas podrías continuar para que sigas avanzando en tu aprendizaje.
+
+## Information sobre el Curso
+
+Lista de Reproducción del Curso: https://www.youtube.com/playlist?list=PLBO4apWPK7b6tRI_B1MQGZfvI6c3ViQd-
+Repositorio del curso (GitHub): https://github.com/codenoschool/restapis-course
+
+ISC School
+CodeNoSchool
+Darkz Sites Company
+
+SUERTE!
+
+Enlaces de interés:
+ISC School: https://www.youtube.com/channel/UC50fQ-3Lwj2UaAlDMsSG7Kw
+CodeNoSchool: https://www.youtube.com/c/CodeNoSchool
+Twitter: https://twitter.com/codenoschool
+Blog (Blogger): https://codenoschool.blogspot.mx/
+Blog (Vivaldi): https://codenoschool.vivaldi.net/
