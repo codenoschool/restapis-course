@@ -252,7 +252,7 @@ Para reafirmar todo lo que has aprendido te presentaremos una serie de demostrac
 
 Te damos más información para que puedas sacarle el máximo provecho a todo lo que has aprendido durante el curso. Te brindamos consejos, resolvemos las dudas más comunes y te comentamos con qué temas podrías continuar para que sigas avanzando en tu aprendizaje.
 
-## Informaci�n adicional sobre el Curso
+## Información adicional sobre el Curso
 
 Lista de Reproducción del Curso: https://www.youtube.com/playlist?list=PLBO4apWPK7b6tRI_B1MQGZfvI6c3ViQd-
 
