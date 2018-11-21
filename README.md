@@ -228,6 +228,14 @@ Casi llegamos al final de nuestro curso, esperamos que hayas aprendido muchas co
 
 Para reafirmar todo lo que has aprendido te presentaremos una serie de demostraciones para que observes los diferentes casos de uso, desarrollo e integración de aplicaciones web a través de diferentes servicios, tecnologías y herramientas.
 
+* ### TBD | RESTful API completa
+
+* ### TBD | Documentación para una API
+
+* ### TBD | Host para aplicaciones web/APIs
+
+* ### TBD | Scripting una API
+
 * ### 17 | Express/Node JS (Javascript)
 
 	#### Creación de un Sitio Web
