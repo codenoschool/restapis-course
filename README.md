@@ -230,7 +230,7 @@ Para reafirmar todo lo que has aprendido te presentaremos una serie de demostrac
 
 * ### TBD | RESTful API completa
 
-* ### TBD | Documentación para una API
+* ### TBD | Documentación para API
 
 * ### TBD | Host para aplicaciones web/APIs
 
