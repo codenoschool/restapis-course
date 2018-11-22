@@ -33,13 +33,13 @@ Actualmente existen diferentes conjuntos de herramientas que nos ayudan a desarr
 ## Preguntas frecuentes (FAQ)
 
 * ¿De qué trata el curso?
-  + El área en la que aprenderemos cosas nuevas será Desarrollo Web.
-  + Existen diferentes enfoques de desarrollo en esta área, nosotros utilizaremos el principio REST para crear APIs
-  + Crear, implementar, distribuir, modificar y consumir APIs; nuestras, de otras personas y/o empresas.
+  * El área en la que aprenderemos cosas nuevas será Desarrollo Web.
+  * Existen diferentes enfoques de desarrollo en esta área, nosotros utilizaremos el principio REST para crear APIs
+  * Crear, implementar, distribuir, modificar y consumir APIs; nuestras, de otras personas y/o empresas.
 
 * ¿Qué herramientas se utilizarán durante el curso?
-  + Principalmente el framework de Flask, basado en Python.
-  + Se harán demostraciones con otro conjunto de herramientas, por ejemplo, Express/Node (Javascript), y algunos otros.
+  * Principalmente el framework de Flask, basado en Python.
+  * Se harán demostraciones con otro conjunto de herramientas, por ejemplo, Express/Node (Javascript), y algunos otros.
 
 * ¿Qué herramientas necesito instalar?
   * En realidad ninguna, puedes seguir el curso solamente mirando los vídeo-tutoriales.
