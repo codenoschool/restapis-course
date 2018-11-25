@@ -33,28 +33,28 @@ Actualmente existen diferentes conjuntos de herramientas que nos ayudan a desarr
 ## Preguntas frecuentes (FAQ)
 
 * ¿De qué trata el curso?
-  * El área en la que aprenderemos cosas nuevas será Desarrollo Web.
-  * Existen diferentes enfoques de desarrollo en esta área, nosotros utilizaremos el principio REST para crear APIs
-  * Crear, implementar, distribuir, modificar y consumir APIs; nuestras, de otras personas y/o empresas.
+	* El área en la que aprenderemos cosas nuevas será Desarrollo Web.
+	* Existen diferentes enfoques de desarrollo en esta área, nosotros utilizaremos el principio REST para crear APIs
+	* Crear, implementar, distribuir, modificar y consumir APIs; nuestras, de otras personas y/o empresas.
 
 * ¿Qué herramientas se utilizarán durante el curso?
-  * Principalmente el framework de Flask, basado en Python.
-  * Se harán demostraciones con otro conjunto de herramientas, por ejemplo, Express/Node (Javascript), y algunos otros.
+	* Principalmente el framework de Flask, basado en Python.
+	* Se harán demostraciones con otro conjunto de herramientas, por ejemplo, Express/Node (Javascript), y algunos otros.
 
 * ¿Qué herramientas necesito instalar?
-  * En realidad ninguna, puedes seguir el curso solamente mirando los vídeo-tutoriales.
-  * Si quieres crear tus propios proyectos a la par del curso entonces necesitarás al menos *:
-    * Python (versión 3.>)
-    * Editor de código
-    * Navegador web (actual)
+	* En realidad ninguna, puedes seguir el curso solamente mirando los vídeo-tutoriales.
+	* Si quieres crear tus propios proyectos a la par del curso entonces necesitarás al menos *:
+		* Python (versión 3.>)
+		* Editor de código
+		* Navegador web (actual)
   
   \* Puedes obtener más información acerca de la instalación de herramientas y configuración de entorno en el vídeo-tutorial del curso que se ha preparado para ello.
 
 * No sé utilizar las tecnologías/herramientas de este curso, ¿qué puedo hacer?
-  * Recuerda que nos esforzamos por hacer que cada vídeo sea completamente claro, y además las tecnologías/herramientas que elegimos para este curso están preparadas para que cualquier persona pueda aprender aún si no las conoce previamente.
+	* Recuerda que nos esforzamos por hacer que cada vídeo sea completamente claro, y además las tecnologías/herramientas que elegimos para este curso están preparadas para que cualquier persona pueda aprender aún si no las conoce previamente.
 
 * ¿Qué otros curso de desarrollo web hay disponibles?
-  * Puedes seguir el curso de Flask, el cual es completo y gratuito. Son 25 vídeos a tu disposición para que aprendas muchas cosas más.
+	* Puedes seguir el curso de Flask, el cual es completo y gratuito. Son 25 vídeos a tu disposición para que aprendas muchas cosas más.
 
 ### Demostración (Flask/Python)
 
